@@ -1,5 +1,6 @@
 import registroDAO from "../models/daos/registro.DAO.js"
 import { generateHashPassword } from "../auth/bcrypt.js"
+import { transporter, testMail } from "../envios/nodemailer.js"
 
 
 
