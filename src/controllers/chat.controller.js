@@ -1,8 +1,10 @@
-const messages = []
+
 
 
 
 export async function chatControl(socket, sockets ){
+    let messages = []
+
     socket.emit('messages', messages)
 
     //escuchamos al cliente
